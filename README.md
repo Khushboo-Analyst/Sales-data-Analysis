@@ -40,9 +40,3 @@ The analysis covers key KPIs, data preprocessing techniques, and visualizations.
 - Seaborn  
 
 ---
-
-## 🚀 How to Run
-1. Clone the repository  
-   ```bash
-   git clone <repo_url>
-   cd ota-data-analysis
