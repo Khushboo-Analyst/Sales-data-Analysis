@@ -1,6 +1,48 @@
-This is the analysis For a OTA data.We have analyed the data taking different facets into account.
-KPIS:revenue per supplier,Revenue across channel,Cost occured,Profit margin ,Avg Refund claimed by Customers and so on
-Steps Followed:
-a)Cleaning of data using pandas
-b)Preprocessing of the data using Functionality like-Data frame,Series, group by,Aggregation ,time series analysis using Data time module,Shift(similar to lag lead window funtion used in the SQL)
-c)Visuaalise the data using seaborn and matplotlib-Bar chart,Line chart & Box plot.
+# OTA Data Analysis
+
+This project analyzes OTA (Online Travel Agency) data to extract insights on performance across suppliers, channels, and customers.  
+The analysis covers key KPIs, data preprocessing techniques, and visualizations.
+
+---
+
+## 📊 Key Performance Indicators (KPIs)
+- Revenue per supplier  
+- Revenue across channels  
+- Cost incurred  
+- Profit margin  
+- Average refunds claimed by customers  
+- Other business metrics  
+
+---
+
+## ⚙️ Steps Followed
+
+### 1. Data Cleaning
+- Handled missing values, duplicates, and inconsistencies using **pandas**.  
+
+### 2. Data Preprocessing
+- Utilized **DataFrame** and **Series** operations.  
+- Applied **groupby**, **aggregation**, and **time-series analysis** with the `datetime` module.  
+- Used the `shift()` function for lag/lead operations (similar to SQL window functions).  
+
+### 3. Data Visualization
+- Built visualizations using **Matplotlib** and **Seaborn**:  
+  - 📊 Bar charts – revenue & cost comparisons  
+  - 📈 Line charts – time-series trends  
+  - 📦 Box plots – distribution insights  
+
+---
+
+## 📂 Tech Stack
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 🚀 How to Run
+1. Clone the repository  
+   ```bash
+   git clone <repo_url>
+   cd ota-data-analysis
